@@ -23,3 +23,28 @@ E:\lập trình c#\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.csproj.CopyComp
 E:\lập trình c#\BaiTapTuan6\BaiTapTuan6\bin\Debug\Newtonsoft.Json.dll
 E:\lập trình c#\BaiTapTuan6\BaiTapTuan6\bin\Debug\Newtonsoft.Json.xml
 E:\lập trình c#\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Net.Http.Formatting.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\BaiTapTuan6.exe.config
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\BaiTapTuan6.exe
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\BaiTapTuan6.pdb
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\Newtonsoft.Json.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Memory.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Net.Http.Formatting.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Text.Json.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Numerics.Vectors.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Buffers.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Text.Encodings.Web.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.ValueTuple.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\bin\Debug\Newtonsoft.Json.xml
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.csproj.AssemblyReference.cache
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.csproj.SuggestedBindingRedirects.cache
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.exe.config
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.Form1.resources
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.Properties.Resources.resources
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.csproj.GenerateResource.cache
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.csproj.CoreCompileInputs.cache
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.csproj.CopyComplete
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.exe
+E:\Bai_Tap_Tuan_6\BaiTapTuan6\BaiTapTuan6\obj\Debug\BaiTapTuan6.pdb

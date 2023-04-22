@@ -51,7 +51,41 @@ namespace BaiTapTuan6
 
         private async void btnAddToDoList_Click(object sender, EventArgs e)
         {
-            
+            //tạo 1 đối tượng mới
+            if (txtTaskName.Text.Trim() == "")
+            {
+                MessageBox.Show("Không được bỏ trống task name");
+                return;
+            }
+            if (textBox2.Text.Trim() == "")
+            {
+                MessageBox.Show("Không được bỏ trống Status");
+                return;
+            }
+            if (!(string.Equals(textBox2.Text, "true") || string.Equals(textBox2.Text, "false")))
+            {
+                MessageBox.Show("Status chỉ được nhập 2 giá trị là true hoặc false");
+                return;
+            }
+            bool status = textBox2.Text == "true" ? true : false;
+            MessageBox.Show(textBox2.Text);
+            HttpClient client = new HttpClient();
+            var parameters = new Dictionary<string, string> {
+                { "taskName", $"{txtTaskName.Text}" },
+                {"status", $"{status.ToString()}" }
+            };
+            var content = new FormUrlEncodedContent(parameters);
+            HttpResponseMessage response = await client.PostAsync("http://svcy.myclass.vn/api/ToDoList/AddTask", content);
+            if (response.IsSuccessStatusCode)
+            {
+                MessageBox.Show("Gửi dữ liệu thành công");
+            }
+            else
+            {
+                MessageBox.Show("Gửi dữ liệu thất bại: " + response.StatusCode);
+            }
+            txtTaskName.Clear();
+            textBox2.Clear();
         }
     }
 }
