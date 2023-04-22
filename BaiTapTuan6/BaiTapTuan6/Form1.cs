@@ -27,7 +27,14 @@ namespace BaiTapTuan6
         }
         private async void btnGetList_Click(object sender, EventArgs e)
         {
-            
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync("https://jsonplaceholder.typicode.com/todos");
+            if (response.IsSuccessStatusCode == true)
+            {
+                string jsonContent = await response.Content.ReadAsStringAsync();
+                List<ToDoTask> tasks = JsonConvert.DeserializeObject<List<ToDoTask>>(jsonContent);
+                displayInDataGridView((object)tasks, "option1");
+            }
         }
 
         private async void btnGetListOutside_Click(object sender, EventArgs e)
