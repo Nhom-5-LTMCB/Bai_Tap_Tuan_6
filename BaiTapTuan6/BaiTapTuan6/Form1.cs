@@ -32,7 +32,14 @@ namespace BaiTapTuan6
 
         private async void btnGetListOutside_Click(object sender, EventArgs e)
         {
-            
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync("http://svcy.myclass.vn/api/ToDoList/GetAllTask");
+            if (response.IsSuccessStatusCode == true)
+            {
+                string jsonContent = await response.Content.ReadAsStringAsync();
+                List<ToDoList2> tasks = JsonConvert.DeserializeObject<List<ToDoList2>>(jsonContent);
+                displayInDataGridView(tasks, "option2");
+            }
         }
 
         private async void btnAddToDoList_Click(object sender, EventArgs e)
