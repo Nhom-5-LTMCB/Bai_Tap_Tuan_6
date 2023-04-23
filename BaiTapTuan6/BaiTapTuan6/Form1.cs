@@ -23,7 +23,29 @@ namespace BaiTapTuan6
 
         private void displayInDataGridView(object tasks, string option)
         {
-            
+            gridViewResult.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            gridViewResult.Columns.Clear();
+            gridViewResult.Rows.Clear();
+            if (option == "option1")
+            {
+                List<ToDoTask> listTasks = (List<ToDoTask>)tasks;
+                gridViewResult.Columns.Add("ID", "id");
+                gridViewResult.Columns.Add("userId", "user id");
+                gridViewResult.Columns.Add("title", "title");
+                gridViewResult.Columns.Add("completed", "completed");
+                foreach (ToDoTask task in listTasks)
+                    gridViewResult.Rows.Add(task.id, task.userId, task.title, task.completed);
+            }
+            else
+            {
+                List<ToDoList2> listTasks = (List<ToDoList2>)tasks;
+                gridViewResult.Columns.Add("taskName", "Task Name");
+                gridViewResult.Columns.Add("status", "Status");
+                foreach (ToDoList2 task in listTasks)
+                    gridViewResult.Rows.Add(task.taskName, task.status);
+            }
+
+            return;
         }
         private async void btnGetList_Click(object sender, EventArgs e)
         {
@@ -87,5 +109,7 @@ namespace BaiTapTuan6
             txtTaskName.Clear();
             textBox2.Clear();
         }
+
+
     }
 }
